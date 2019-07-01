@@ -1,0 +1,7 @@
+<library path="lib/libmowing_planner">
+  <class name="mowing_planner/MowingPlanner" type="mowing_planner::MowingPlanner" base_class_type="nav_core::BaseGlobalPlanner">
+    <description>
+      A simple planner that seeks to place a legal Mowing in-front of the robot
+    </description>
+  </class>
+</library>
